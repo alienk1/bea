@@ -137,8 +137,8 @@
 
     <section class="no-padding" id="portfolio">
         <div class="container-fluid">
-            <div class="row no-gutter popup-gallery">
-                <div class="col-lg-4 col-sm-6">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6 popup-gallery" data="gallery1">
                     <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
                         <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
@@ -153,7 +153,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-4 col-sm-6 popup-gallery" data="gallery2">
                     <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
                         <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
@@ -168,7 +168,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-4 col-sm-6 popup-gallery" data="gallery3">
                     <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
                         <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
@@ -183,9 +183,7 @@
                         </div>
                     </a>
                 </div>
-            </div>
-            <div class="row no-gutter popup-gallery">
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-4 col-sm-6 popup-gallery" data="gallery4">
                     <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
                         <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
@@ -200,7 +198,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-4 col-sm-6 popup-gallery" data="gallery1">
                     <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
                         <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
@@ -215,7 +213,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-4 col-sm-6 popup-gallery" data="gallery1">
                     <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
                         <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
@@ -273,7 +271,25 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="{{ asset('vendor/js/scrollreveal.min.js') }}"></script>
     <script src="{{ asset('vendor/js/jquery.magnific-popup.min.js') }}"></script>
-
+    <script>
+        var data = {
+            <?php
+                $gal = 0;
+            ?>
+            @foreach($gallery as $value)
+                @if($gal != $value->id_cat)
+                    {!! ($gal == 0 ? '' : '],') . "gallery$value->id_cat: [" !!}
+                @endif
+                {!!
+                "{src: 'img/portfolio/photos/$value->img'},"
+                !!}
+                @if($gal != $value->id_cat)
+                    <?php $gal = $value->id_cat; ?>
+                @endif
+            @endforeach
+            {!! ']' !!}
+        };
+    </script>
     <!-- Theme JavaScript -->
     <script src="{{ asset('js/all.min.js') }}"></script>
 

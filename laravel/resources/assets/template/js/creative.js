@@ -46,40 +46,9 @@
     }, 300);
 
     // Initialize and Configure Magnific Popup Lightbox Plugin
-    $('.popup-gallery').each(function () {
+    $('.popup-gallery').each(function (i) {
         $(this).magnificPopup({
-            items: [
-                {
-                    src: 'img/portfolio/fullsize/1.jpg'
-                },
-                {
-                    src: 'img/portfolio/fullsize/2.jpg'
-                },
-                {
-                    src: 'img/portfolio/fullsize/1.jpg'
-                },
-                {
-                    src: 'img/portfolio/fullsize/2.jpg'
-                },
-                {
-                    src: 'img/portfolio/fullsize/1.jpg'
-                },
-                {
-                    src: 'img/portfolio/fullsize/2.jpg'
-                },
-                {
-                    src: 'img/portfolio/fullsize/1.jpg'
-                },
-                {
-                    src: 'img/portfolio/fullsize/2.jpg'
-                },
-                {
-                    src: 'img/portfolio/fullsize/1.jpg'
-                },
-                {
-                    src: 'img/portfolio/fullsize/2.jpg'
-                }
-            ],
+            items: data[$(this).attr('data')],
             //delegate: 'a',
             type: 'image',
             tLoading: 'Loading image #%curr%...',
