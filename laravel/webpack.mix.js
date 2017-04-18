@@ -12,17 +12,17 @@ const { mix } = require('laravel-mix');
  */
 
 mix
-    .copy('node_modules/jquery/dist/jquery.min.js', 'public/vendor/js/jquery.min.js')
-    .copy('node_modules/bootstrap/dist/js/bootstrap.min.js', 'public/vendor/js/bootstrap.min.js')
-    .copy('node_modules/bootstrap/dist/css/bootstrap.min.css', 'public/vendor/css/bootstrap.min.css')
-    .copy('node_modules/scrollreveal/dist/scrollreveal.min.js', 'public/vendor/js/scrollreveal.min.js')
-    .copy('node_modules/magnific-popup/dist/jquery.magnific-popup.min.js', 'public/vendor/js/jquery.magnific-popup.min.js')
-    .copy('node_modules/magnific-popup/dist/magnific-popup.css', 'public/vendor/css/magnific-popup.css')
-    .copy('node_modules/font-awesome/css/font-awesome.min.css', 'public/vendor/css/font-awesome.min.css')
-    .copy('node_modules/font-awesome/fonts', 'public/vendor/fonts')
-    //will remove
-    .copy('resources/assets/template/img/portfolio/fullsize', 'public/img/portfolio/fullsize')
-    .copy('resources/assets/template/img/portfolio/thumbnails', 'public/img/portfolio/thumbnails')
+    // .copy('node_modules/jquery/dist/jquery.min.js', 'public/vendor/js/jquery.min.js')
+    // .copy('node_modules/bootstrap/dist/js/bootstrap.min.js', 'public/vendor/js/bootstrap.min.js')
+    // .copy('node_modules/bootstrap/dist/css/bootstrap.min.css', 'public/vendor/css/bootstrap.min.css')
+    // .copy('node_modules/scrollreveal/dist/scrollreveal.min.js', 'public/vendor/js/scrollreveal.min.js')
+    // .copy('node_modules/magnific-popup/dist/jquery.magnific-popup.min.js', 'public/vendor/js/jquery.magnific-popup.min.js')
+    // .copy('node_modules/magnific-popup/dist/magnific-popup.css', 'public/vendor/css/magnific-popup.css')
+    // .copy('node_modules/font-awesome/css/font-awesome.min.css', 'public/vendor/css/font-awesome.min.css')
+    // .copy('node_modules/font-awesome/fonts', 'public/vendor/fonts')
+    // //will remove
+    // .copy('resources/assets/template/img/portfolio/fullsize', 'public/img/portfolio/fullsize')
+    // .copy('resources/assets/template/img/portfolio/thumbnails', 'public/img/portfolio/thumbnails')
 
 
     .scripts([

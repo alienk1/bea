@@ -48,7 +48,39 @@
     // Initialize and Configure Magnific Popup Lightbox Plugin
     $('.popup-gallery').each(function () {
         $(this).magnificPopup({
-            delegate: 'a',
+            items: [
+                {
+                    src: 'img/portfolio/fullsize/1.jpg'
+                },
+                {
+                    src: 'img/portfolio/fullsize/2.jpg'
+                },
+                {
+                    src: 'img/portfolio/fullsize/1.jpg'
+                },
+                {
+                    src: 'img/portfolio/fullsize/2.jpg'
+                },
+                {
+                    src: 'img/portfolio/fullsize/1.jpg'
+                },
+                {
+                    src: 'img/portfolio/fullsize/2.jpg'
+                },
+                {
+                    src: 'img/portfolio/fullsize/1.jpg'
+                },
+                {
+                    src: 'img/portfolio/fullsize/2.jpg'
+                },
+                {
+                    src: 'img/portfolio/fullsize/1.jpg'
+                },
+                {
+                    src: 'img/portfolio/fullsize/2.jpg'
+                }
+            ],
+            //delegate: 'a',
             type: 'image',
             tLoading: 'Loading image #%curr%...',
             mainClass: 'mfp-img-mobile',
