@@ -139,8 +139,8 @@
         <div class="container-fluid">
             <div class="row no-gutter">
                 <div class="col-lg-4 col-sm-6 popup-gallery" data="gallery1">
-                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                    <a href="http://view.beautyshar.com.ua" class="portfolio-box">
+                        <img src="{{ asset('images/logo_1.jpg') }}" class="img-responsive" alt="beautyshar">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -154,8 +154,8 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6 popup-gallery" data="gallery2">
-                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
+                    <a href="http://view.beautyshar.com.ua" class="portfolio-box">
+                        <img src="{{ asset('images/logo_2.jpg') }}" class="img-responsive" alt="beautyshar">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -168,9 +168,9 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6 popup-gallery" data="gallery3">
-                    <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
+                <div class="col-lg-4 col-sm-6 popup-gallery pull-right" data="gallery3">
+                    <a href="http://view.beautyshar.com.ua" class="portfolio-box">
+                        <img src="{{ asset('images/logo_5.jpg') }}" class="img-responsive" alt="beautyshar">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -184,8 +184,8 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6 popup-gallery" data="gallery4">
-                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
+                    <a href="http://view.beautyshar.com.ua" class="portfolio-box">
+                        <img src="{{ asset('images/logo_3.jpg') }}" class="img-responsive" alt="beautyshar">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -199,23 +199,8 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6 popup-gallery" data="gallery1">
-                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6 popup-gallery" data="gallery1">
-                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
+                    <a href="http://view.beautyshar.com.ua" class="portfolio-box">
+                        <img src="{{ asset('images/logo_4.jpg') }}" class="img-responsive" alt="beautyshar">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
