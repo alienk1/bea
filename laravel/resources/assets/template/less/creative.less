@@ -136,7 +136,7 @@ aside {
             }
         }
         &.affix {
-            background-color: white;
+            background-color: rgba(255,255,255,.8);
             border-color: fade(@gray-darker, 5%);
             .navbar-header .navbar-brand {
                 color: @theme-primary;
@@ -189,6 +189,10 @@ header {
                 color: fade(white, 70%);
                 font-size: 16px;
                 margin-bottom: 50px;
+                span {
+                    float: right;
+                    font-size: 12px;
+                }
             }
         }
     }
@@ -213,6 +217,17 @@ header {
                     max-width: 80%;
                     margin-left: auto;
                     margin-right: auto;
+                }
+            }
+        }
+    }
+    @media (min-width: 1023px) {
+        .header-content {
+            .header-content-inner {
+                p {
+                    span {
+                        margin-right: 105px;
+                    }
                 }
             }
         }
