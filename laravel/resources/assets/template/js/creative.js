@@ -47,8 +47,12 @@
 
     // Initialize and Configure Magnific Popup Lightbox Plugin
     $('.popup-gallery').each(function (i) {
+        var array = [];
+        $(this).attr('data').split(' ').forEach(function (el) {
+            array = array.concat(data[el]);
+        });
         $(this).magnificPopup({
-            items: data[$(this).attr('data')],
+            items: array,
             //delegate: 'a',
             type: 'image',
             tLoading: 'Loading image #%curr%...',

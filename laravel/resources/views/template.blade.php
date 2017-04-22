@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Оформление воздушными шарами свадьбы, день рождения, 8 марта, день защитника Отечества, Новый год и Рождество, веселые праздники, детские праздники, корпоративные праздники. Доставка воздушных шаров по адресу. Киев. Винница.">
+    <meta name="keywords" content="Воздушные шары, Оформление воздушными шарами, Доставкка воздушных шаров, Свадьба, День рождения, Новый год, Рождество, 8 Марта, День защитника Отечества, Выпускной, День Святого Валентина, День Влюбленных.">
+    <meta name="author" content="Queue">
 
-    <title>Creative - Start Bootstrap Theme</title>
+    <title>BeautyShar | Оформление воздушными шарами | Доставка воздушных шаров</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="{{ asset('vendor/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -52,14 +53,17 @@
                     <li>
                         <a class="page-scroll" href="#about">Веселый праздник</a>
                     </li>
-                    <li>
+                    {{--<li>
                         <a class="page-scroll" href="#services">Коротко</a>
-                    </li>
+                    </li>--}}
                     <li>
                         <a class="page-scroll" href="#portfolio">Портфолио</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Контакты</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="http://view.beautyshar.com.ua">beautyshar.com.ua</a>
                     </li>
                 </ul>
             </div>
@@ -86,7 +90,7 @@
                     <h2 class="section-heading">Этот день Вы запомните!</h2>
                     <hr class="light">
                     <p class="text-faded">Не обязательно быть празднику, чтобы порадовать близкого человека. Несколько неожиданных воздушных шариков принесут улыбку и в обычный день! А любой Ваш красный день в календаре превратится красочную гамму незабываемых впечатлений! Ведь с воздушным шариком и день будет светлей. А если много воздушных шариков!..</p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Меньше текста - больше фото</a>
+                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Больше фото</a>
                 </div>
             </div>
         </div>
@@ -138,46 +142,46 @@
     <section class="no-padding" id="portfolio">
         <div class="container-fluid">
             <div class="row no-gutter">
-                <div class="col-lg-4 col-sm-6 popup-gallery" data="gallery1">
+                <div class="col-lg-4 col-sm-6 popup-gallery" data="gallery1 gallery2">
                     <a href="http://view.beautyshar.com.ua" class="portfolio-box">
                         <img src="{{ asset('images/logo_1.jpg') }}" class="img-responsive" alt="beautyshar">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Оформление банкетов
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Свадьба, день рождение...
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6 popup-gallery" data="gallery2">
+                <div class="col-lg-4 col-sm-6 popup-gallery" data="gallery3">
                     <a href="http://view.beautyshar.com.ua" class="portfolio-box">
                         <img src="{{ asset('images/logo_2.jpg') }}" class="img-responsive" alt="beautyshar">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Изделия из шаров
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Арки, фигуры, цветы...
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6 popup-gallery pull-right" data="gallery3">
+                <div class="col-lg-4 col-sm-6 popup-gallery pull-right" data="gallery4">
                     <a href="http://view.beautyshar.com.ua" class="portfolio-box">
                         <img src="{{ asset('images/logo_5.jpg') }}" class="img-responsive" alt="beautyshar">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Large balloons
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Большие шары
                                 </div>
                             </div>
                         </div>
@@ -189,25 +193,25 @@
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Доставка воздушных шаров
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    В любое время суток
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6 popup-gallery" data="gallery1">
+                <div class="col-lg-4 col-sm-6 popup-gallery" data="gallery4">
                     <a href="http://view.beautyshar.com.ua" class="portfolio-box">
                         <img src="{{ asset('images/logo_4.jpg') }}" class="img-responsive" alt="beautyshar">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Фольгированные шары
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Фигуры, детские супер-герои...
                                 </div>
                             </div>
                         </div>
@@ -234,13 +238,17 @@
                     <hr class="primary">
                     <p>Если у Вас есть вопросы или готовы обсудить детали заказа</p>
                 </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
+                <div class="col-lg-4 text-center">
                     <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>123-456-6789</p>
+                    <p>+38(067) 567 47 87</p>
                 </div>
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
+                    <p><a href="mailto:beauty-shar@ukr.net">beauty-shar@ukr.net</a></p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-globe fa-3x sr-contact"></i>
+                    <p><a href="http://view.beautyshar.com.ua">beautyshar.com.ua</a></p>
                 </div>
             </div>
         </div>
